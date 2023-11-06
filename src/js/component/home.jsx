@@ -1,25 +1,63 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import {Card} from "./card.jsx"
+
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+
+	<div>
+	 <div className="container-fluid w-75">
+		<div className="row">
+			<div className="col-3">
+				<Card
+					urlImage="https://picsum.photos/id/40/367/267"
+					cardTitle="Card Title"
+					cardText="Card Text"
+					buttonLink="https://my.clevelandclinic.org/health/body/21778-nose"
+					buttonLabel="Learn more"
+				/>
+			</div>
+			<div className="col-3">
+				<Card
+					urlImage="https://picsum.photos/id/40/367/267"
+					cardTitle="Card Title"
+					cardText="Card Text"
+					buttonLink="https://my.clevelandclinic.org/health/body/21778-nose"
+						buttonLabel="Learn more"
+				/>
+			</div>
+			<div className="col-3">
+				<Card
+					urlImage="https://picsum.photos/id/40/367/267"
+					cardTitle="Card Title"
+					cardText="Card Text"
+					buttonLink="https://my.clevelandclinic.org/health/body/21778-nose"
+					buttonLabel="Learn more"
+				/>
+			</div>
+			<div className="col-3">
+				<Card
+					urlImage="https://picsum.photos/id/40/367/267"
+					cardTitle="Card Title"
+					cardText="Card Text"
+					buttonLink="https://my.clevelandclinic.org/health/body/21778-nose"
+					buttonLabel="Learn more"
+				/>
+			</div>
 		</div>
+	</div>	
+	
+		<footer className="row bg-dark"> 
+		  <p className="text-center text-white pt-5 pb-5">copyright, website with react 2023</p>
+
+	    </footer>
+
+	</div>
+
+	
+
 	);
 };
 
