@@ -1,5 +1,6 @@
 import React from "react";
-
+import {Jumbotron} from "./jumbotron.jsx";
+import {Navbar} from "./nav.jsx";
 import {Card} from "./card.jsx"
 
 
@@ -8,6 +9,12 @@ const Home = () => {
 	return (
 
 	<div>
+		<div>
+			<Navbar/>
+		</div>
+		<div>
+			<Jumbotron />
+		</div>
 	 <div className="container-fluid w-75">
 		<div className="row">
 			<div className="col-3">
