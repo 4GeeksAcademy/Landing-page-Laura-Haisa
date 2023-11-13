@@ -4,7 +4,7 @@ import PropType from "prop-types";
 
 export const Card = props =>  {
     return (
-        <div className="card">
+        <div className="card mb-sm-3 mb-md-3 mb-lg-3">
 			<img
 				className="card-img-top"
 				src={props.urlImage}
