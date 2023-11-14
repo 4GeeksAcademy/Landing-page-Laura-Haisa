@@ -15,7 +15,7 @@ const Home = () => {
 		<div>
 			<Jumbotron />
 		</div>
-	 <div className="container-fluid w-75">
+	 <div className="container">
 		<div className="row">
 			<div className="col-xl-3 col-md-4 col-lg-3 mb-2">
 				<Card
